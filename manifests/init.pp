@@ -166,8 +166,8 @@ class glare (
     }
     if !$default_store_real {
       # set default store based on provided stores when it isn't explicitly set
-      warning("default_store not provided, it will be automatically set to ${stores_real[0]}")
-      $default_store_real = $stores_real[0]
+      warning("default_store not provided, it will be automatically set to ${stores[0]}")
+      $default_store_real = $stores[0]
     }
   } elsif $default_store_real {
     # set stores based on default_store if only default_store is provided
